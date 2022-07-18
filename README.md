@@ -59,6 +59,7 @@ Transfer functions, bode plots, zero plots of different type of Analog Filters a
   * $\lim_{x\to\infty}|H(jw)|   =  \frac{  \omega_0}{\sqrt{\infty^2 + \omega_0^2}} = \frac{  \omega_0}{  \infty} =0 $
 
 * With this result, we can interpret that our filter attenuates the higher frequencies whereas the lower frequencies passes the filter without any attenuation. Also the bode plot of the circuit above is showing the magnitude and phase response of a RC Low Pass Filter with $R_1 = 1000 \ohm$ and $C_1= 1\micro F$
+
 ![RC LP Filter Response](circuit-images/RCLPR1kC1muF.JPG)
 
 * In the `RC_low_pass.m` script in `basic-filters` folder, you can plot the magnitude, phase response and pole-zero plot of the filter.
